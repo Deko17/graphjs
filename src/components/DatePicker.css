@@ -1,0 +1,28 @@
+/* DateRangePicker.css */
+
+/* Reduce the size of the DateRangePicker */
+.DatePicker {
+	font-size: 12px;
+	width: 150px;
+}
+
+/* Customize the color of the selected dates */
+.CalendarDay__selected_span {
+	background-color: #3a4e53;
+	/* Change to your preferred color */
+	color: rgb(107, 63, 63);
+	/* Change to your preferred text color */
+}
+
+/* Customize the hover color of the selected dates */
+.CalendarDay__selected_span:hover {
+	background-color: #2789d3;
+	/* Change to your preferred hover color */
+}
+
+/* Customize the color of the hover overlay when selecting dates */
+.DayPicker__withBorder .CalendarDay__selected_start:hover,
+.DayPicker__withBorder .CalendarDay__selected_end:hover {
+	background-color: #61dafb;
+	/* Change to your preferred color */
+}
