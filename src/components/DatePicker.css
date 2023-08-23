@@ -1,28 +1,35 @@
-/* DateRangePicker.css */
-
-/* Reduce the size of the DateRangePicker */
-.DatePicker {
-	font-size: 12px;
-	width: 150px;
+/* Hide the calendar container */
+.react-calendar {
+	display: none;
 }
 
-/* Customize the color of the selected dates */
-.CalendarDay__selected_span {
-	background-color: #3a4e53;
-	/* Change to your preferred color */
-	color: rgb(107, 63, 63);
-	/* Change to your preferred text color */
+/* Hide the calendar button and preview area */
+.rdrCalendarWrapper {
+	display: none;
 }
 
-/* Customize the hover color of the selected dates */
-.CalendarDay__selected_span:hover {
-	background-color: #2789d3;
-	/* Change to your preferred hover color */
+/* Hide the preview calendar popup */
+.rdrMonths {
+	display: none;
 }
 
-/* Customize the color of the hover overlay when selecting dates */
-.DayPicker__withBorder .CalendarDay__selected_start:hover,
-.DayPicker__withBorder .CalendarDay__selected_end:hover {
-	background-color: #61dafb;
-	/* Change to your preferred color */
+/* Hide the date input field */
+.rdrDateDisplayWrapper {
+	display: none;
+}
+
+.transparent-input {
+	background-color: transparent;
+	border: none;
+	color: white;
+	width: 100%;
+}
+
+.date-picker-container {
+	display: flex;
+	align-items: center;
+}
+
+.date-input {
+	margin-right: 10px;
 }
