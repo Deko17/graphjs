@@ -10,7 +10,7 @@ const BarChart = () => {
 			{
 				label: 'Выручка',
 				data: [],
-				backgroundColor: 'rgb(141,28,212)',
+				backgroundColor: '#47118E',
 				borderColor: 'rgba(75, 192, 192, 1)',
 				borderWidth: 1,
 			},
@@ -65,7 +65,8 @@ const BarChart = () => {
 								type: 'time',
 								time: {
 									unit: 'day',
-								}, ticks: {
+								},
+								ticks: {
 									color: 'white',
 									fontSize: '20px',
 									font: {
@@ -75,16 +76,17 @@ const BarChart = () => {
 							},
 							y: {
 								beginAtZero: true,
-								color: 'white',
-								font: {
-									weight: 'bold'
-								}
+								ticks: {
+									color: 'white',
+									fontSize: '20px',
+									font: {
+										weight: 'bold',
+									},
+								},
 							},
 						},
 						legend: {
-							labels: {
-								fontSize: 30,
-							},
+							display: false,
 						},
 					}}
 				/>
